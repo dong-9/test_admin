@@ -12,7 +12,6 @@
 
 <P>  The time on the server is ${serverTime}. </P>
 <ul>
-	<li><a href="adminSample">Admin Sample Page</a></li>
 	<li><a href="adminMemberList">Admin Member List</a></li>
 	<li><a href="adminMemberModify">Admin Member Modify</a></li>
 	<li><a href="adminTicketingList">Admin ticketing List</a></li>
@@ -22,7 +21,7 @@
 </ul>
 <hr>
 <ul>
-	<li><a href="userSample">User Sample</a></li>
+	<li><a href="main">User Main</a></li>
 </ul>
 
 </body>

@@ -11,9 +11,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class UserController {
 
 	// admin sample page
-	@RequestMapping(value = "/userSample")
+	@RequestMapping(value = "/main")
 	public ModelAndView userSample(ModelAndView mv) {
-		mv.setViewName("user/sample");
+		mv.setViewName("user/main/main");
 		return mv;
 	}
 

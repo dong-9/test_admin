@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Q&#38;A</title>
 <!-- admin common file setting -->
-<c:import url="../adminSettings.jsp"></c:import>
+<c:import url="../common/adminSettings.jsp"></c:import>
 <style type="text/css">
 .ellipsis { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
 </style>

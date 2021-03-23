@@ -10,13 +10,6 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class AdminController {
 
-	// admin sample page
-	@RequestMapping(value = "/adminSample")
-	public ModelAndView adminSample(ModelAndView mv) {
-		mv.setViewName("admin/sample");
-		return mv;
-	}
-
 	// admin member list
 	@RequestMapping(value = "/adminMemberList")
 	public ModelAndView adminMemberList(ModelAndView mv) {
@@ -35,13 +28,6 @@ public class AdminController {
 	@RequestMapping(value = "/adminTicketingList")
 	public ModelAndView adminTicketingList(ModelAndView mv) {
 		mv.setViewName("admin/ticketing/list");
-		return mv;
-	}
-
-	// admin ticketing modify
-	@RequestMapping(value = "/adminTicketingModify")
-	public ModelAndView adminTicketingModify(ModelAndView mv) {
-		mv.setViewName("admin/ticketing/modify");
 		return mv;
 	}
 

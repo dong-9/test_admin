@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>회원관리</title>
 <!-- admin common file setting -->
-<c:import url="../adminSettings.jsp"></c:import>
+<c:import url="../common/adminSettings.jsp"></c:import>
 </head>
 <body>
 	<div class="container-scroller">

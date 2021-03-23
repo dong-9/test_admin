@@ -5,6 +5,7 @@
 
 <!-- js -->
 <script src="resources/common/js/jquery-3.2.1.min.js"></script>
+<script src="resources/common/js/global.js"></script>
 
 <!-- ico -->
 <link rel="shortcut icon" href="resources/common/ico/favicon.ico" />
