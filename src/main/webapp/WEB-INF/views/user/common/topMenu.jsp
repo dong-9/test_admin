@@ -12,7 +12,7 @@
 </c:if>
 	<!-- //login -->
 	<!-- logout -->
-	<li><a href="#e" class="top-menu-btn">로그인</a></li>
-	<li><a href="#e">회원가입</a></li>
+	<li><a href="login" class="top-menu-btn">로그인</a></li>
+	<li><a href="join">회원가입</a></li>
 	<!-- //logout -->
 </ul>

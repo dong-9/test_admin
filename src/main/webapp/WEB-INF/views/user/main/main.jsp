@@ -119,7 +119,7 @@
 		</div>
 		<!-- // banner -->
 		<!-- footer -->
-		<div id="footer">
+		<footer id="footer">
 			<ul class="banner-logo">
 				<li><img src="resources/user/images/main/foot1_s.png" alt="banner-logo" title="banner-logo"/></li>
 				<li><img src="resources/user/images/main/foot2_s.png" alt="banner-logo" title="banner-logo"/></li>
@@ -143,7 +143,7 @@
 				<li><img src="resources/user/images/main/foot_com1.png" alt="banner" title="banner" /></li>
 				<li><img src="resources/user/images/main/foot_com2.png" alt="banner" title="banner" /></li>
 			</ul>
-		</div>
+		</footer>
 		<!-- // footer -->
 	</div>
 	<!-- // main -->

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#side-menu {width:220px; min-height: 100vh;}
+#side-menu {width:220px; min-height: 100vh; box-sizing: border-box; border-right: 1px solid #e6e6e6;}
 
 /* logo */
 .logo {display: flex; justify-content: center; padding-top: 44px;}

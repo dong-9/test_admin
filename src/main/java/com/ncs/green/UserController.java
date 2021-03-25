@@ -10,11 +10,38 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class UserController {
 
-	// admin sample page
+	// user main page
 	@RequestMapping(value = "/main")
-	public ModelAndView userSample(ModelAndView mv) {
+	public ModelAndView main(ModelAndView mv) {
 		mv.setViewName("user/main/main");
 		return mv;
 	}
+	
+	// user login page
+	@RequestMapping(value = "/login")
+	public ModelAndView login(ModelAndView mv) {
+		mv.setViewName("user/login/login");
+		return mv;
+	}
+	
+	// user find id page
+	@RequestMapping(value = "/findID")
+	public ModelAndView findID(ModelAndView mv) {
+		mv.setViewName("user/login/findID");
+		return mv;
+	}
+	
+	// user find pw page
+	@RequestMapping(value = "/findPW")
+	public ModelAndView findPW(ModelAndView mv) {
+		mv.setViewName("user/login/findPW");
+		return mv;
+	}
 
+	// user join page
+	@RequestMapping(value = "/join")
+	public ModelAndView join(ModelAndView mv) {
+		mv.setViewName("user/join/join");
+		return mv;
+	}
 }

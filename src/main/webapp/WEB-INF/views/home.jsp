@@ -22,6 +22,10 @@
 <hr>
 <ul>
 	<li><a href="main">User Main</a></li>
+	<li><a href="login">User login</a></li>
+	<li><a href="findID">User find ID</a></li>
+	<li><a href="findPW">User find PW</a></li>
+	<li><a href="join">User login</a></li>
 </ul>
 
 </body>
