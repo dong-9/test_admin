@@ -47,8 +47,8 @@
 						<p class="title">가는날</p>
 						<p class="text">2021. 03. 23. 화</p>
 					</div>
-				</div>
-				<input type="button" class="main-content-btn" value="조회하기">
+				</div> 
+				<input type="button" class="main-content-btn" value="조회하기" onClick="location.href='search'">
 			</div>
 			<!-- // main_content -->
 			<!-- main_content -->

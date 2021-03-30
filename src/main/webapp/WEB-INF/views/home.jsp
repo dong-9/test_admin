@@ -26,6 +26,8 @@
 	<li><a href="findID">User find ID</a></li>
 	<li><a href="findPW">User find PW</a></li>
 	<li><a href="join">User login</a></li>
+	<li><a href="search">User ticketing search</a></li>
+	<li><a href="seat">User ticketing seat</a></li>
 </ul>
 
 </body>

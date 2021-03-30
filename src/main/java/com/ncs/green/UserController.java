@@ -44,4 +44,17 @@ public class UserController {
 		mv.setViewName("user/join/join");
 		return mv;
 	}
+	
+	// user ticketing search page
+	@RequestMapping(value = "/search")
+	public ModelAndView search(ModelAndView mv) {
+		mv.setViewName("user/ticketing/search");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/seat")
+	public ModelAndView seat(ModelAndView mv) {
+		mv.setViewName("user/ticketing/seat");
+		return mv;
+	}
 }
