@@ -61,10 +61,12 @@
 						<div class="select-seat-box">
 							<div class="seat-bg">
 								<div class="seat-list">
+									<!-- item -->
 									<div class="seat-area">
 										<input type="checkbox" id="seat01" />
 										<label for="seat01">1</label>
 									</div>
+									<!-- // item -->
 									<div class="seat-area">
 										<input type="checkbox" id="seat02" />
 										<label for="seat02">2</label>

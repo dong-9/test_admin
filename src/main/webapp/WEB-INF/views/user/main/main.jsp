@@ -111,7 +111,7 @@
 			</div>
 			<div class="banner-content">
 				<p class="title">이용안내</p>
-				<a href="#e" class="terminal-info">
+				<a href="terminal" class="terminal-info">
 					<img src="resources/user/images/main/ico_info4.png" alt="terminal" title="terminal" />
 					<span>터미널안내</span>
 				</a>
@@ -147,7 +147,6 @@
 		<!-- // footer -->
 	</div>
 	<!-- // main -->
-	
 	<!-- js -->
 	<script src="resources/user/js/main/main.js"></script>
 </body>

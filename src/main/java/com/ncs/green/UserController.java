@@ -57,4 +57,46 @@ public class UserController {
 		mv.setViewName("user/ticketing/seat");
 		return mv;
 	}
+	
+	@RequestMapping(value = "/myPage")
+	public ModelAndView myPage(ModelAndView mv) {
+		mv.setViewName("user/myPage/home");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/changeNumber")
+	public ModelAndView changeNumber(ModelAndView mv) {
+		mv.setViewName("user/myPage/changeNumber");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/changePW")
+	public ModelAndView changePW(ModelAndView mv) {
+		mv.setViewName("user/myPage/changePW");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/ticketList")
+	public ModelAndView ticketList(ModelAndView mv) {
+		mv.setViewName("user/myPage/ticketList");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/terminal")
+	public ModelAndView terminal(ModelAndView mv) {
+		mv.setViewName("user/terminal/terminal");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/qnaList")
+	public ModelAndView qnaList(ModelAndView mv) {
+		mv.setViewName("user/qna/list");
+		return mv;
+	}
+	
+	@RequestMapping(value = "/qnaRegister")
+	public ModelAndView qnaRegister(ModelAndView mv) {
+		mv.setViewName("user/qna/register");
+		return mv;
+	}
 }

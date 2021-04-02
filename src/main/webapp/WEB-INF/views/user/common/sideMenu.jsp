@@ -13,9 +13,9 @@
 	<!-- // logo -->
 	<!-- menu -->
 	<ul class="menu">
-		<li><a href="#e">예매확인</a></li>
-		<li><a href="#e">이용안내</a></li>
-		<li><a href="#e">고객센터</a></li>
+		<li><a href="ticketList">예매확인</a></li>
+		<li><a href="terminal">이용안내</a></li>
+		<li><a href="qnaList">고객센터</a></li>
 	</ul>
 	<!-- // menu -->
 </div>

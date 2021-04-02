@@ -28,6 +28,13 @@
 	<li><a href="join">User login</a></li>
 	<li><a href="search">User ticketing search</a></li>
 	<li><a href="seat">User ticketing seat</a></li>
+	<li><a href="myPage">User myPage</a></li>
+	<li><a href="changeNumber">User change phone number</a></li>
+	<li><a href="changePW">User change PW</a></li>
+	<li><a href="ticketList">User ticket List</a></li>
+	<li><a href="terminal">User terminal</a></li>
+	<li><a href="qnaList">User QnA list</a></li>
+	<li><a href="qnaRegister">User QnA register</a></li>
 </ul>
 
 </body>
